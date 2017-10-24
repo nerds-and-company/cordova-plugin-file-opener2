@@ -67,6 +67,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	      	return;
     	}
 
+		[UINavigationBar appearance].tintColor = [UIColor orangeColor];
 		docController = [UIDocumentInteractionController  interactionControllerWithURL:fileURL];
 		docController.delegate = self;
 		docController.UTI = uti;
